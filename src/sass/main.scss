@@ -1,12 +1,12 @@
 // Підключення утилітів та глобальних стилів
-@import './utils/global-styles';
+@import './utils/vars';
 @import './utils/reset';
 @import './utils/visually-hidden';
-@import './utils/vars';
+@import './utils/global-styles';
 
 // Підключення стилів для компонентів
 @import './components/container';
 
 // Підключення стилів для макету
-// @import './layout/benefits';
+@import './layout/benefits';
 // @import './layout/assortment';
