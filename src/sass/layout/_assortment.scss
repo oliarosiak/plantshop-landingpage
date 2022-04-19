@@ -1,0 +1,12 @@
+/* Assortment section */
+.assortment__container {
+    margin-bottom: 80px;
+}
+
+.assortment__list {
+    display: flex;
+}
+
+.assortment__item:not(:last-child) {
+    margin-right: 20px;
+}

@@ -1,7 +1,12 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+// Підключення утилітів та глобальних стилів
+@import './utils/global-styles';
+@import './utils/reset';
+@import './utils/visually-hidden';
+@import './utils/vars';
 
-// Стили для файла с примером HTML-фрагмента
-// @import './example';
+// Підключення стилів для компонентів
+@import './components/container';
+
+// Підключення стилів для макету
+// @import './layout/benefits';
+// @import './layout/assortment';
