@@ -1,7 +1,8 @@
 /* Benefits section */
 
-.container.benefits__container {
-    margin-bottom: 80px;
+.benefits__container {
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .benefits__list {
@@ -25,13 +26,16 @@
 
 .benefits__icon {
     padding-right: 16px;
+    width: 48px;
+    height: 48px;
+    fill: $accent-color;
 }
 
 .benefits__caption {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--main-header-color);
+    color: $accent-color;
 }
 
 .benefits__text {
