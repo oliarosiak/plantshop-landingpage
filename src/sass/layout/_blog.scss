@@ -1,0 +1,5 @@
+// @include font($fs, $fz, $fw, $lh);
+
+.blog__title {
+    @include font(normal, 40px, 700, 56px);
+}

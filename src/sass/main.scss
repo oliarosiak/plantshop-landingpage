@@ -3,10 +3,13 @@
 @import './utils/reset';
 @import './utils/visually-hidden';
 @import './utils/global-styles';
+@import './utils/mixins';
 
 // Підключення стилів для компонентів
+@import './components/section';
 @import './components/container';
 
 // Підключення стилів для макету
 @import './layout/benefits';
 // @import './layout/assortment';
+@import './layout/blog';

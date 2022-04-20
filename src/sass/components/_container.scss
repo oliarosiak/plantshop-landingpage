@@ -1,3 +1,10 @@
 .container {
-    padding: 0 56px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 56px;
+    padding-right: 56px;
+
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+    }
 }

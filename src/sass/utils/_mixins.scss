@@ -1,0 +1,7 @@
+// шрифт - @include font($fs, $fz, $fw, $lh);
+@mixin font($fs, $fz, $fw, $lh) {
+    font-style: $fs;
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh / $fz;
+}
