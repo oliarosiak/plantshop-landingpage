@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/shop-pic.jpg":[["shop-pic.a2d6bb2f.jpg","BiGt"],"BiGt"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/plantshop-landingpage/src.ef59e02d.js.map
+//# sourceMappingURL=/plantshop-landingpage/src.7e9eaa97.js.map
