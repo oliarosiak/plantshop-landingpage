@@ -1,7 +1,6 @@
-/* Assortment section */
-// .assortment__container {
-//     margin-bottom: 80px;
-// }
+.assortment__section {
+    color: $second-text-color;;
+}
 
 .assortment__checkbox{
     display: flex;
@@ -12,18 +11,68 @@
     margin-bottom: 24px;
 }
 
+.assortment__label {
+    @include font(normal, 20px, 500, 24px);  
+}
+
+.assortment__select {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    @include font(normal, 12px, 500, 15px);
+    color: $second-text-color;
+    border: 1px solid $main-linear-color;
+    outline: none;
+}
+
 .assortment__list {
     display: flex;
 }
 
 .assortment__item{
     width: 217px;
+    text-align: center;    
 }
 
 .assortment__item:not(:last-child) {
     margin-right: 20px;
 }
 
-.assortment__thumb {
-    text-align: center;
+.assortment__image {
+    width: 217px;
+    height: 217px;
+    background-color: $second-background-color;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+}
+
+.assortment__image--first {
+    background-image: url('../images/assortment-1.png');
+}
+
+.assortment__image--second {
+    background-image: url('../images/assortment-2.png');
+}
+
+.assortment__image--third {
+    background-image: url('../images/assortment-3.png');
+}
+
+.assortment__image--fourth {
+    background-image: url('../images/assortment-4.png');
+}
+
+.assortment__image--five {
+    background-image: url('../images/assortment-5.png');
+}
+
+.assortment__title{
+    @include font(normal, 16px, 400, 20px);
+    margin-bottom: 8px;
+}
+
+.assortment__text {
+    @include font(normal, 16px, 600, 20px);
 }
