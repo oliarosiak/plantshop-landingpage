@@ -1,13 +1,7 @@
 /* Загальні стилі */
 body {
     font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.75;
+    @include font(normal, 16px, 400, 28px); 
     color: $main-text-color;
     background-color: $main-background-color;
-
-    width: 1280px;
-    margin: 0 auto;
 }

@@ -1,5 +1,18 @@
-// @include font($fs, $fz, $fw, $lh);
+.blog__container{
+    display: flex;
+}
+
+.blog__wrapper {
+    margin-bottom: 74px;
+}
 
 .blog__title {
     @include font(normal, 40px, 700, 56px);
+    color: inherit;
+    margin-bottom: 16px;
+}
+
+.blog__text {
+    @include font(normal, 16px, 400, 28px);
+    color: inherit;
 }

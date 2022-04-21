@@ -1,0 +1,44 @@
+.shop__section{
+    padding-bottom: 80px;
+}
+
+.shop__container {
+    display: flex;
+}
+
+.shop__thumb {
+    background-color: $second-background-color;
+    padding: 88px 6px 88px 97px;
+}
+
+.shop__content-wrap{
+    width: 583px;
+    height: 184px;
+}
+
+.shop__title {
+    @include font(normal, 40px, 700, 56px);
+    color: inherit;
+    margin-bottom: 32px;  
+    margin-right: -2px;
+}
+
+.shop__link {
+    display: inline-block;
+    font-family: 'Nunito';
+    @include font(normal, 14px, 700, 20px);
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    color: $third-text-color;
+    padding: 10px 42px;
+}
+
+.shop__cover-wrap {
+    width: 480px;
+    height: 360px;
+    background-color: $second-background-color;
+    background-image: url(../images/shop-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: auto auto;
+}
