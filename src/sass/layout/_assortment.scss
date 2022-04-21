@@ -1,12 +1,29 @@
 /* Assortment section */
-.assortment__container {
-    margin-bottom: 80px;
+// .assortment__container {
+//     margin-bottom: 80px;
+// }
+
+.assortment__checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid $main-linear-color;
+    margin-bottom: 24px;
 }
 
 .assortment__list {
     display: flex;
 }
 
+.assortment__item{
+    width: 217px;
+}
+
 .assortment__item:not(:last-child) {
     margin-right: 20px;
+}
+
+.assortment__thumb {
+    text-align: center;
 }

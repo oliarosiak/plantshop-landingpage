@@ -1,8 +1,15 @@
 .blog__container{
     display: flex;
+    justify-content: space-between;
+}
+
+.blog__thumb {
+    padding-top: 10px;
 }
 
 .blog__wrapper {
+    width: 522px;
+    padding-left: 21px;
     margin-bottom: 74px;
 }
 
@@ -15,4 +22,14 @@
 .blog__text {
     @include font(normal, 16px, 400, 28px);
     color: inherit;
+}
+
+.blog__img--small {
+    width: 568px;
+    height: 250px;
+}
+
+.blog__img--big {
+    width: 513px;
+    height: 610px;
 }

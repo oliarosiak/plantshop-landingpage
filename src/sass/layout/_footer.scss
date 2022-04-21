@@ -89,7 +89,8 @@
         opacity: 0.5;
     }
 
-    &:focus{
+    &:focus,
+    &:hover{
         border: 1px solid $accent-color;
     }
 }
